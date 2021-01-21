@@ -1,0 +1,9 @@
+{
+	"configurations": [
+		{
+			"name": "ServbotDashEditor Editor Win64 Development (ServbotDash)",
+			"intelliSenseMode": "msvc-x64",
+			"compileCommands": "C:\\Users\\reish\\GitHub\\ServbotDash\\.vscode\\compileCommands_ServbotDash.json"
+		}
+	]
+}

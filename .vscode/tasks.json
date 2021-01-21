@@ -1,0 +1,1247 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "ServbotDash Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDash",
+				"Win32",
+				"Debug",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDash",
+				"Win32",
+				"Debug",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ServbotDash Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ServbotDash",
+				"Win32",
+				"Debug",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDash",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDash",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ServbotDash Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ServbotDash",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDash",
+				"Win32",
+				"Development",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDash",
+				"Win32",
+				"Development",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ServbotDash Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ServbotDash",
+				"Win32",
+				"Development",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDash",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDash",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ServbotDash Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ServbotDash",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDash",
+				"Win32",
+				"Test",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDash",
+				"Win32",
+				"Test",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ServbotDash Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ServbotDash",
+				"Win32",
+				"Test",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDash",
+				"Win64",
+				"Debug",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDash",
+				"Win64",
+				"Debug",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ServbotDash Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ServbotDash",
+				"Win64",
+				"Debug",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDash",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDash",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ServbotDash Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ServbotDash",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDash",
+				"Win64",
+				"Development",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDash",
+				"Win64",
+				"Development",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ServbotDash Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ServbotDash",
+				"Win64",
+				"Development",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDash",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDash",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ServbotDash Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ServbotDash",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDash",
+				"Win64",
+				"Test",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDash",
+				"Win64",
+				"Test",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ServbotDash Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ServbotDash",
+				"Win64",
+				"Test",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash HoloLens Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDash",
+				"HoloLens",
+				"Debug",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash HoloLens Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDash",
+				"HoloLens",
+				"Debug",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ServbotDash HoloLens Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash HoloLens Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ServbotDash",
+				"HoloLens",
+				"Debug",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash HoloLens DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDash",
+				"HoloLens",
+				"DebugGame",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash HoloLens DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDash",
+				"HoloLens",
+				"DebugGame",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ServbotDash HoloLens DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash HoloLens DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ServbotDash",
+				"HoloLens",
+				"DebugGame",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash HoloLens Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDash",
+				"HoloLens",
+				"Development",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash HoloLens Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDash",
+				"HoloLens",
+				"Development",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ServbotDash HoloLens Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash HoloLens Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ServbotDash",
+				"HoloLens",
+				"Development",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash HoloLens Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDash",
+				"HoloLens",
+				"Shipping",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash HoloLens Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDash",
+				"HoloLens",
+				"Shipping",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ServbotDash HoloLens Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash HoloLens Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ServbotDash",
+				"HoloLens",
+				"Shipping",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash HoloLens Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDash",
+				"HoloLens",
+				"Test",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash HoloLens Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDash",
+				"HoloLens",
+				"Test",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ServbotDash HoloLens Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash HoloLens Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ServbotDash",
+				"HoloLens",
+				"Test",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Android Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDash",
+				"Android",
+				"Debug",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Android Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDash",
+				"Android",
+				"Debug",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ServbotDash Android Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Android Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ServbotDash",
+				"Android",
+				"Debug",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Android DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDash",
+				"Android",
+				"DebugGame",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Android DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDash",
+				"Android",
+				"DebugGame",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ServbotDash Android DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Android DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ServbotDash",
+				"Android",
+				"DebugGame",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Android Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDash",
+				"Android",
+				"Development",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Android Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDash",
+				"Android",
+				"Development",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ServbotDash Android Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Android Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ServbotDash",
+				"Android",
+				"Development",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Android Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDash",
+				"Android",
+				"Shipping",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Android Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDash",
+				"Android",
+				"Shipping",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ServbotDash Android Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Android Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ServbotDash",
+				"Android",
+				"Shipping",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Android Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDash",
+				"Android",
+				"Test",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Android Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDash",
+				"Android",
+				"Test",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ServbotDash Android Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDash Android Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ServbotDash",
+				"Android",
+				"Test",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDashEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDashEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDashEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDashEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ServbotDashEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDashEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ServbotDashEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDashEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDashEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDashEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDashEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ServbotDashEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDashEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ServbotDashEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDashEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDashEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDashEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ServbotDashEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ServbotDashEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ServbotDashEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ServbotDashEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\reish\\GitHub\\ServbotDash\\ServbotDash.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		}
+	]
+}
